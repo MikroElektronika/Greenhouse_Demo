@@ -5,8 +5,7 @@
 #### Internal inforamtion 
 - **Verison**        : v1.0.0
 - **Date**           : 3/29/2019
-- **Libstock**       : {LIBSTOCK_LINK}
-- **GitHub**         : {GITHUB_LINK}
+- **Author**         : Aleksandar Paunovic
 
 ## Project description
 
