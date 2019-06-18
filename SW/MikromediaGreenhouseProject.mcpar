@@ -1,0 +1,125 @@
+[DEVICE]
+Name=STM32F746ZG
+Clock=200000000
+[VTFT]
+File=MikromediaGreenhouseProject.vtft
+_etMain=MikromediaGreenhouseProject_main.c
+_etDriver=MikromediaGreenhouseProject_driver.c
+_etEvents=MikromediaGreenhouseProject_events_code.c
+_etObjects=MikromediaGreenhouseProject_objects.h
+_etResources=MikromediaGreenhouseProject_resources.c
+_etResourceHeader=MikromediaGreenhouseProject_resources.h
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=MikromediaGreenhouseProject_main.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=MikromediaGreenhouseProject_main.c
+File1=MikromediaGreenhouseProject_events_code.c
+File2=MikromediaGreenhouseProject_driver.c
+File3=MikromediaGreenhouseProject_resources.c
+Count=4
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=MikromediaGreenhouseProject_main.c
+File1=MikromediaGreenhouseProject_events_code.c
+File2=MikromediaGreenhouseProject_driver.c
+File3=MikromediaGreenhouseProject_objects.h
+Count=4
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\
+Path1=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\
+Path2=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\UV 3 Click\Uses\
+Path3=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAN 3 Click\Uses\
+Path4=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Servo Click\Uses\
+Path5=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Temp&Hum 6 Click\Uses\
+Count=6
+[HEADER_PATH]
+Path0=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\
+Path1=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\
+Path2=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\UV 3 Click\Uses\
+Path3=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAN 3 Click\Uses\
+Path4=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Servo Click\Uses\
+Path5=..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Temp&Hum 6 Click\Uses\
+Count=6
+[HEADERS]
+File0=MikromediaGreenhouseProject_resources.h
+File1=MikromediaGreenhouseProject_objects.h
+File2=MikromediaGreenhouseProject_config.h
+File3=MikromediaGreenhouseProject_timer.h
+File4=MikromediaGreenhouseProject_types.h
+Count=5
+[PLDS]
+File0=MikromediaGreenhouseProject.pld
+Count=1
+[Useses]
+File0=UART
+File1=mikromedia_7_STM32F7
+File2=G2C_STM32_M7
+File3=UV_3_STM32_M7
+File4=Fan_3_STM32_M7
+File5=Servo_STM32_M7
+File6=TempHum6_STM32_M7
+File7=C_String
+File8=C_Type
+File9=Conversions
+File10=I2C
+File11=Mmc
+File12=Mmc_FAT16
+File13=Mmc_FAT16_Config
+File14=Mmc_FAT16_Defs
+File15=Port_Expander
+File16=SDIO
+File17=SPI
+File18=STMPE610
+File19=TFT
+File20=TFT_Defs
+File21=TFT_Fonts
+File22=TWI
+Count=23
+[EXPANDED_NODES]
+0=MikromediaGreenhouseProject.mcpar
+1=Sources
+6=Header Files
+13=Project Level Defines
+Count=4
+[LIB_EXPANDED_NODES]
+2278=Click Libraries
+Count=1
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mikroE mikroProg
+[DEBUGGER_TYPE]
+Value=default
+[NECTO_OPTIONS]
+NECTO_RESET_TYPE=0
+NECTO_ERASE_TYPE=0
+NECTO_CONNECTION=1
+NECTO_SPEED=4
+NECTO_HALT_AFTER=0
+NECTO_VERIFY_AFTER=1
+[AT_DEBUG_STARTUP]
+LOAD_BIN_TO_RAM=0
+START_EXEC_FROM_ADDR=0
+START_ADDR=-1

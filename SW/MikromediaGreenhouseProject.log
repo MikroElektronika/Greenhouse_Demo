@@ -1,0 +1,125 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F746ZG -RA -BIN -LHF -C -DL -SSA -O11111114 -fo200 -N"C:\Users\aleksandar.paunovic\Desktop\Mikromedia Greenhouse Project\MikromediaGreenhouseProject.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M7\" -SP"C:\Users\aleksandar.paunovic\Desktop\Mikromedia Greenhouse Project\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\UV 3 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAN 3 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Servo Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Temp&Hum 6 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M3\" -IP"C:\Users\aleksandar.paunovic\Desktop\Mikromedia Greenhouse Project\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\UV 3 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAN 3 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Servo Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Temp&Hum 6 Click\Uses\" "MikromediaGreenhouseProject_main.c" "MikromediaGreenhouseProject_events_code.c" "MikromediaGreenhouseProject_driver.c" "MikromediaGreenhouseProject_resources.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_F7xx.emcl" "__Lib_GPIO_32F7xx_Defs.emcl" "__Lib_GPIO_32F7xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_1234.emcl" "__Lib_SPI_123456.emcl" "__Lib_UART_123_45_6_78.emcl" "__Lib_SDIO.emcl" "__Lib_PortExpander.emcl" "__Lib_Mmc_SDIO.emcl" "__Lib_MmcFat16.emcl" "__Lib_MmcFat16Constants.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_STMPE610.emcl" "mikromedia_7_STM32F7.emcl" "G2C_STM32_M7.emcl" "UV_3_STM32_M7.emcl" "Fan_3_STM32_M7.emcl" "Servo_STM32_M7.emcl" "TempHum6_STM32_M7.emcl" "MikromediaGreenhouseProject.pld"	 
+diagnostics: 0	122	Compilation Started	STM32F746ZG.c
+diagnostics: 81803	123	Compiled Successfully	STM32F746ZG.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 92	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 109	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 815	123	Compiled Successfully	__Lib_GPIO_32F7xx_Defs.c
+diagnostics: 0	122	Compilation Started	__Lib_MmcFat16Constants.c
+diagnostics: 73	123	Compiled Successfully	__Lib_MmcFat16Constants.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_Defs.c
+warning: 110	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 122	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 134	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 146	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 155	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 172	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 186	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+diagnostics: 4534	123	Compiled Successfully	__Lib_TFT_Defs.c
+hint: 51	1164	Variable 'temp' has been eliminated by optimizer	__Lib_TFT_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 52	1505	Suspicious pointer conversion	__mm_7_stm32f7_i2c.c
+warning: 58	1505	Suspicious pointer conversion	__mm_7_stm32f7_i2c.c
+warning: 64	1505	Suspicious pointer conversion	__mm_7_stm32f7_i2c.c
+warning: 70	1505	Suspicious pointer conversion	__mm_7_stm32f7_i2c.c
+warning: 76	1505	Suspicious pointer conversion	__mm_7_stm32f7_i2c.c
+diagnostics: 349	123	Compiled Successfully	mikromedia_7_STM32F7.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x002D)	mikromediagreenhouseproject_timer.h
+hint: 0	1004	interrupt handler (G2C_Int_Proc at 0x0036)	MikromediaGreenhouseProject_main.c
+diagnostics: 1576	123	Compiled Successfully	MikromediaGreenhouseProject_main.c
+hint: 357	1164	Variable 'evArgs' has been eliminated by optimizer	MikromediaGreenhouseProject_main.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 202	123	Compiled Successfully	MikromediaGreenhouseProject_events_code.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 854	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 866	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 879	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 892	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 905	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 918	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 931	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 944	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 957	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 970	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 983	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 996	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1032	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1053	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1065	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1077	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1089	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1101	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1113	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1128	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1160	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1186	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1206	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1224	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1250	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1276	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1302	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1328	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1354	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1380	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1406	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1432	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1458	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1484	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1510	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1536	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1562	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1588	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1614	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1640	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1666	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1692	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1718	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1744	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1770	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1796	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1822	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1848	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1874	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1900	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1926	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1947	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1960	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1973	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 1991	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2017	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2044	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2070	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2096	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2116	1508	Implicit conversion of int to ptr	MikromediaGreenhouseProject_driver.c
+warning: 2150	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2152	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2189	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2191	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2214	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2216	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2223	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2281	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2400	1506	Implicit conversion of pointer to int	MikromediaGreenhouseProject_driver.c
+warning: 2986	1505	Suspicious pointer conversion	MikromediaGreenhouseProject_driver.c
+diagnostics: 3096	123	Compiled Successfully	MikromediaGreenhouseProject_driver.c
+hint: 2248	1164	Variable 'red_current' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2249	1164	Variable 'green_current' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2250	1164	Variable 'blue_current' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2291	1164	Variable 'endcolor' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2290	1164	Variable 'cnt' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2434	1164	Variable '_tmpI' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+hint: 2434	1164	Variable '_tmpII' has been eliminated by optimizer	MikromediaGreenhouseProject_driver.c
+diagnostics: 0	122	Compilation Started	MikromediaGreenhouseProject_resources.c
+diagnostics: 14	123	Compiled Successfully	MikromediaGreenhouseProject_resources.c
+diagnostics: 0	127	All files Compiled in 906 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 7174   Dynamic RAM (bytes): 320501	Static RAM (bytes): 7174   Dynamic RAM (bytes): 320501
+hint: 0	1144	Used ROM (bytes): 105309 (10%)  Free ROM (bytes): 943267 (90%)	Used ROM (bytes): 105309 (10%)  Free ROM (bytes): 943267 (90%)
+diagnostics: 0	125	Project Linked Successfully	MikromediaGreenhouseProject.mcpar
+diagnostics: 0	128	Linked in 1016 ms	 
+diagnostics: 0	129	Project 'MikromediaGreenhouseProject.mcpar' completed: 4250 ms	 
+diagnostics: 0	103	Finished successfully: 29 Mar 2019, 14:31:58	MikromediaGreenhouseProject.mcpar
